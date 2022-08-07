@@ -1,0 +1,66 @@
+/* Text alignment */
+.text-center {
+  text-align: center;
+}
+/* Text color */
+.secondary {
+  color: var(--secondary);
+}
+.primary {
+  color: var(--primary);
+}
+/* font weight */
+.fw-strong {
+  font-weight: 600;
+}
+.inline-block {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* Button */
+.button {
+  display: inline-block;
+  background-color: var(--primary);
+  color: #ffffff;
+  padding: 5px 1rem;
+  border-radius: 2rem;
+}
+/* Cards */
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.card {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 6px;
+}
+/* Contact cards */
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.contact-icon img {
+  height: 44px;
+}
+
+/* List */
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.skill-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+.skill-list li:last-child {
+  border-bottom: 0;
+}

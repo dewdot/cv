@@ -1,0 +1,12 @@
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.profile-icon {
+  display: grid;
+  place-content: center;
+  background-color: var(--primary);
+  width: 44px;
+  height: 44px;border-radius: 6px;
+}

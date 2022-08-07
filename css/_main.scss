@@ -1,0 +1,53 @@
+.main {
+  width: calc(100% - 300px);
+  display: inline-flex;
+  flex-direction: column;
+  box-shadow: 6px 6px 72px #dddddd;
+  padding: 2rem;
+  border-radius:  0 1rem 1rem 1rem;
+}
+.section:not(:last-child) {
+  padding-bottom: 4rem;
+}
+.section-title {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+.section-title::before {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  background-color: var(--primary);
+  width: 50px;
+  height: 3px;
+}
+.sub-title {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 1rem;
+}
+.sub-title::before,
+.sub-title::after {
+  position: absolute;
+  content: '';
+  height: 1px;
+}
+.sub-title::before {
+  position: absolute;
+  content: '';
+  bottom: 1px;
+  background-color: var(--primary);
+  width: 50px;
+  height: 1px;
+}
+.sub-title::after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  background-color: var(--border);
+  width: 50%;
+  height: 1px;
+}
